@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #181a1b;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh; /* For mobile browsers */
+}
