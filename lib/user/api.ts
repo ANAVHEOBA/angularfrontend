@@ -1,6 +1,6 @@
 import { LoginRequest, LoginResponse } from './types';
 
-const API_BASE_URL = 'http://localhost:5000'; // Directly use the local API URL
+const API_BASE_URL = 'https://googlebacend.onrender.com'; // Directly use the local API URL
 
 export async function loginUser(credentials: LoginRequest): Promise<LoginResponse> {
   try {
